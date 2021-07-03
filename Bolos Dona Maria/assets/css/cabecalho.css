@@ -1,6 +1,6 @@
 .cabecalho {
     align-items: center;
-    background: #ff6f9c;
+    background: #af7140;
     display: flex;
     justify-content: space-between;
 }
@@ -14,6 +14,7 @@
 .cabecalho__titulo {
     font-family: 'Fuggles', cursive;
     font-size: 2rem;
+    color: #fdfdfd;
 }
 
 .cabecalho__lista {

@@ -1,0 +1,13 @@
+.banner {
+    align-items: center;
+    background: url('../img/bolo-banner.jpg') center / cover no-repeat;
+    display: flex;
+    height: 32rem;
+    justify-content: center;
+}
+
+.banner__titulo {
+    font-size: 5rem;
+    color: #fdfdfd;
+    font-family: 'Fuggles', cursive;
+}
