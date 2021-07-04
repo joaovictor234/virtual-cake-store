@@ -1,0 +1,10 @@
+:root {
+    --cabecalho__background: #af7140;
+    --cor__letra: #fdfdfd;
+    --cor__letra--destaque: #333333;
+    --botao__background: #ffbd2c;
+    --botao__background--hover: #ffa500;
+    --principal__background: #794513;
+    --principal__background--container: #d0730d;
+    --principal__cabecalho: #ffb268;
+}

@@ -1,0 +1,30 @@
+.principal {
+    background: var(--principal__background);
+}
+
+.tipo__cabecalho {
+    align-items: center;
+    background: var(--principal__cabecalho);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.tipo__secao {
+    font-size: 1.5rem;
+    color: var(--cor__letra);
+}
+
+.tipo__link {
+    background: var(--botao__background);
+    border: 1px solid var(--cor__letra--destaque);
+    border-radius: 10px;
+    color: var(--cor__letra--destaque);
+    padding: 0.6rem 1rem;
+    transition: 0.5s;
+}
+
+.tipo__link:hover {
+    background: var(--botao__background--hover);
+    color: var(--cor__letra);
+}
