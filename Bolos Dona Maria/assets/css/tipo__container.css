@@ -46,3 +46,13 @@
 .botao__preco:hover {
     background: var(--botao__background--hover);
 }
+
+@media screen and (max-width: 768px) {
+    .tipo__container {
+        flex-direction: column;
+    }
+    .tipo__container--bolo {
+        width: 80%;
+        margin: 1rem 2rem;
+    }
+}

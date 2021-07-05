@@ -28,3 +28,9 @@
     background: var(--botao__background--hover);
     color: var(--cor__letra);
 }
+
+@media screen and (max-width: 768px) {
+    .tipo__link {
+        display: none;
+    }
+}
