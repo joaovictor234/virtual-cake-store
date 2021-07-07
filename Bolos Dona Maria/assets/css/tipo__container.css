@@ -7,11 +7,17 @@
 .tipo__container--bolo {
     align-items: center;
     background: var(--principal__background--container);
+    border-radius: 10px;
     margin: 0.5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.5s;
     width: 25%;
+}
+
+.tipo__container--bolo:hover {
+    transform: scale(1.05);
 }
 
 .imagem__bolo {
@@ -54,5 +60,8 @@
     .tipo__container--bolo {
         width: 80%;
         margin: 1rem 2rem;
+    }
+    .tipo__container--bolo:hover {
+        transform: none;
     }
 }
