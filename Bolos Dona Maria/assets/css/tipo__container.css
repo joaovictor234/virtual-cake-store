@@ -14,6 +14,7 @@
     justify-content: space-between;
     transition: 0.5s;
     width: 25%;
+    z-index: 1;
 }
 
 .tipo__container--bolo:hover {
@@ -32,7 +33,8 @@
 
 .container__titulo {
     color: var(--cor__letra);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-family: 'Fuggles', cursive;
     margin: 1rem 0;
     text-align: center;
 }
@@ -58,8 +60,25 @@
         flex-direction: column;
     }
     .tipo__container--bolo {
-        width: 80%;
+        width: auto;
         margin: 1rem 2rem;
+    }
+    .imagem__bolo {
+        width: 50%;
+        height: 50%;
+    }
+    .imagem__bolo--casamento {
+        width: 50%;
+        height: 50%;
+        margin-top: 0.5rem;
+    }
+    .container__titulo {
+        font-family: sans-serif;
+        font-size: 1rem;
+    }
+    .botao__preco {
+        font-size: 1rem;
+        width: 50%;
     }
     .tipo__container--bolo:hover {
         transform: none;
