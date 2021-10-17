@@ -1,68 +1,48 @@
 .cabecalho {
-    align-items: center;
-    background: var(--cabecalho__background);
-    display: flex;
-    justify-content: space-between;
+    background-color: var(--cabecalho__background);
     position: fixed;
-    width: 100vw;
     z-index: 2;
+    width: 100%;
 }
-
 .cabecalho__logo {
-    align-items: center;
     display: flex;
-    margin: 1rem;
+    margin-right: 0;
+    justify-content: space-between;
 }
-
-.cabecalho__titulo {
-    font-family: 'Fuggles', cursive;
+.cabecalho__logo--titulo {
     font-size: 2rem;
-    color: var(--cor__letra);
+    color: #fff;
+    font-family: 'Fuggles', cursive;
+    margin-bottom: 0;
+    margin-left: 5px;
 }
-
-.cabecalho__nav {
+.cabecalho__botao {
+    background-color: var(--botao__background);
+    border: 2px solid #333;
+}
+.cabecalho__botao:hover {
+    background-color: var(--botao__background--hover);
+}
+.cabecalho__link {
     display: flex;
-    margin-right: 2rem;
+    flex-grow: 0;
 }
-
-.lista__item--link {
-    background: var(--botao__background);
+.cabecalho__link--item {
+    color: #fdfdfd;
+    background-color: var(--botao__background);
+    margin-left: 10px;
     border-radius: 10px;
-    color: var(--cor__letra--destaque);
-    font-size: 1.2rem;
-    margin: 0.8rem;
-    padding: 0.5rem 1rem;
+    border: 2px solid #333;
     transition: 0.5s;
-    border: 1px solid var(--cor__letra--destaque);
+    text-align: center;
 }
-
-.lista__item--link:hover {
-    background: var(--botao__background--hover);
-    color: var(--cor__letra);
+.cabecalho__link--item:hover {
+    background-color: var(--botao__background--hover);
+    color: #fdfdfd;
     text-decoration: underline;
 }
-
 @media (max-width: 768px) {
-    .cabecalho {
-        flex-direction: column;
-        position: static;
-        height: auto;
-        width: 100vw;
-    }
-    .cabecalho__titulo {
-        font-size: 2.5rem;
-    }
-    .cabecalho__nav {
-        flex-direction: column;
-        margin: 0 1rem;
-        width: 100%;
-    }
-    .lista__item--link {
-        text-align: center;
-        margin: 0;
-        padding: 1rem 0;
-        border-radius: 0;
-        border: 0;
-        border-bottom: 0.5px solid var(--cor__letra--destaque);
+    .cabecalho__link {
+        display: inline;
     }
 }
